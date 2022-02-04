@@ -1,0 +1,10 @@
+
+
+<div class="search-container">
+  <form class="search-form">
+    <mat-form-field class="text-search">
+      <!-- <input matInput placeholder="Search" [formControl]="searchField" > -->
+      <input matInput placeholder="Search" name="search" [(ngModel)]="search" (input)="searchChange($event)">
+    </mat-form-field>
+  </form>
+</div>
